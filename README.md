@@ -41,3 +41,11 @@ yarn build
 This command builds a production-ready deployment into the `build` folder. These files are ready
 to be hosted on any static content server.
 
+## License
+
+The documentation (`.md` and `.mdx` files in the `/docs` folder) are licenced under the  [CC-BY-SA-4.0](/LICENCE-docs) licence.
+
+The supporting code is licenced under the [BSD-2-Clause](/LICENSE) licence
+
+
+
