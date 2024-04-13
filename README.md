@@ -1,41 +1,43 @@
-# Website
+# Petar_mc's docs 
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## Getting Started
 
-### Installation
+How to get docs running on your local machine for development.
 
-```
-$ yarn
-```
+### Prerequisites
+
+- [node](https://nodejs.org)
+- [yarn](https://yarnpkg.com/getting-started/install)
 
 ### Local Development
 
-```
-$ yarn start
-```
+1. Clone the repository. If you plan to make changes, create a fork first
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```bash
+git clone https://github.com/PetarMc1/Petar_mcs-Docs
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+2. Install all required dependencies
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+yarn
 ```
 
-Not using SSH:
+3. Start the development server
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+yarn dev
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This will start a local development server. The majority of changes will
+be instantly reflected live without the need to restart the development server or reload the page in your browser.
+
+### Building
+
+```bash
+yarn build
+```
+
+This command builds a production-ready deployment into the `build` folder. These files are ready
+to be hosted on any static content server.
+
