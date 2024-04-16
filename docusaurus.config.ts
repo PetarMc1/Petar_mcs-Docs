@@ -28,8 +28,6 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/PetarMc1/Petar_mc-s-Docs',
         },
         blog: false,
@@ -44,7 +42,6 @@ const config: Config = {
     colorMode: {
       defaultMode: 'dark',
     },
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Petar_mc\'s docs',
@@ -54,6 +51,12 @@ const config: Config = {
       },
       
       items: [
+        {
+          type: 'doc',
+          docId: '/api-v2/getting-started',
+          label: 'Minecraft Items API v2',
+          sidebarId: 'api', // Sidebar id for Dropdown Item 1
+        },
        {
         type: 'dropdown',
         label: 'Generators', // Label for the dropdown item
@@ -63,13 +66,13 @@ const config: Config = {
             type: 'doc',
             docId: 'Generators/RGBgenerator/AboutTheProject',
             label: 'RGB Generator',
-            sidebarId: 'gens', // Sidebar id for Dropdown Item 1
+            sidebarId: 'generators', // Sidebar id for Dropdown Item 1
           },
           {
             type: 'doc',
             docId: 'Generators/FontGenerator/AboutTheProject',
             label: 'Font Generator',
-            sidebarId: 'gens', // Sidebar id for Dropdown Item 2
+            sidebarId: 'generators', // Sidebar id for Dropdown Item 2
           },
         ],
       },
