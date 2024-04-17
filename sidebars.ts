@@ -66,7 +66,8 @@ api: [
       slug: "/api-v2/advanced",
     },
     items: [
-      'MinecraftItemsAPI-v2/Advanced/naming-convention'
+      'MinecraftItemsAPI-v2/Advanced/naming-convention',
+      'MinecraftItemsAPI-v2/Advanced/unusual-item-names'
       //MinecraftItemsAPI-v2
     ],
   }
