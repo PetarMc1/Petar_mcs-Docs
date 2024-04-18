@@ -5,7 +5,7 @@ description: All Versions that the API supports
 
 # Supported Versions
 
-Here are the versions supported by the Minecraft Items API v2:
+Here are Minecraft versions supported by the API:
 
 - 1.9
 - 1.10
