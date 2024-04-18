@@ -11,7 +11,7 @@ You can see a full file with all of this items [here](https://github.com/PetarMc
 
 Some exaples for items like this:
 
-### 1.8
+### 1.9
 
 #### Items
 - Grass Block is `grass`
