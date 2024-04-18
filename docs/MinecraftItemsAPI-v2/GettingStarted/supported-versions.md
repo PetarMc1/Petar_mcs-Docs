@@ -16,7 +16,7 @@ Here are the versions supported by the Minecraft Items API v2:
 - 1.15
 - 1.16
 - 1.17
-- 1.18
+- 1.18 (Only blocks and items)
 - 1.19
 - 1.20
 

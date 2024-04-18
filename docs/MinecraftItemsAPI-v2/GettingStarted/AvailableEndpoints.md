@@ -38,3 +38,15 @@ This endpoint retrieves blocks informaton by ID and version.
 **Example Request:** `https://api.petarmc.com/v2/blocks/id/1.20/181`
 
 
+
+## `/v2/name/effects/{version}/{effectName}`
+This endpoint retrieves effect informaton by name and version.
+
+**Example Request:** `https://api.petarmc.com/v2/name/effects/1.20/speed`
+
+
+
+## `/v2/id/effects/{version}/{effectName}`
+This endpoint retrieves effect informaton by name and version.
+
+**Example Request:** `https://api.petarmc.com/v2/id/effects/1.20/1`
