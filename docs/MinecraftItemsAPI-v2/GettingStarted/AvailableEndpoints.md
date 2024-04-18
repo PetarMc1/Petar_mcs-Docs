@@ -9,33 +9,33 @@ Below are the endpoints you can use to access information about Minecraft items 
 
 
 
-### `v2/items/name/{version}/{itemName}`
+### `/v2/name/items/{version}/{itemName}`
 This endpoint retrieves items informaton by name and version.
 
 
-**Example Request:** https://api.petarmc.com/v2/items/name/1.20/diamond
+**Example Request:** https://api.petarmc.com/v2/name/items/1.20/diamond
 
 
 
-## `/v2/items/id/{version}/{itemId}`
+## `/v2/id/items/{version}/{itemId}`
 This endpoint retrieves items informaton by ID and version.
 
-**Example Request:** https://api.petarmc.com/v2/items/id/1.20/764
+**Example Request:** https://api.petarmc.com/v2/id/items/1.20/764
 
 
 
 
-## `/v2/blocks/name/{version}/{blockName}`
+## `/v2/name/blocks/{version}/{blockName}`
 This endpoint retrieves blocks informaton by name and version.
 
-**Example Request:** https://api.petarmc.com/v2/blocks/name/1.20/diamond_block
+**Example Request:** https://api.petarmc.com/v2/name/blocks/1.20/diamond_block
 
 
 
-## `/v2/blocks/id/{version}/{blockId}`
+## `/v2/id/blocks/{version}/{blockId}`
 This endpoint retrieves blocks informaton by ID and version.
 
-**Example Request:** https://api.petarmc.com/v2/blocks/id/1.20/181
+**Example Request:** https://api.petarmc.com/v2/id/blocks/1.20/181
 
 
 
