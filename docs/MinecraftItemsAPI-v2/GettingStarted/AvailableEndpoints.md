@@ -17,7 +17,7 @@ This endpoint retrieves items informaton by name and version.
 
 
 
-## `/v2/id/items/{version}/{itemId}`
+### `/v2/id/items/{version}/{itemId}`
 This endpoint retrieves items informaton by ID and version.
 
 **Example Request:** https://api.petarmc.com/v2/id/items/1.20/764
@@ -25,28 +25,28 @@ This endpoint retrieves items informaton by ID and version.
 
 
 
-## `/v2/name/blocks/{version}/{blockName}`
+### `/v2/name/blocks/{version}/{blockName}`
 This endpoint retrieves blocks informaton by name and version.
 
 **Example Request:** https://api.petarmc.com/v2/name/blocks/1.20/diamond_block
 
 
 
-## `/v2/id/blocks/{version}/{blockId}`
+### `/v2/id/blocks/{version}/{blockId}`
 This endpoint retrieves blocks informaton by ID and version.
 
 **Example Request:** https://api.petarmc.com/v2/id/blocks/1.20/181
 
 
 
-## `/v2/name/effects/{version}/{effectName}`
+### `/v2/name/effects/{version}/{effectName}`
 This endpoint retrieves effect informaton by name and version.
 
 **Example Request:** https://api.petarmc.com/v2/name/effects/1.20/speed
 
 
 
-## `/v2/id/effects/{version}/{effectName}`
+### `/v2/id/effects/{version}/{effectName}`
 This endpoint retrieves effect informaton by name and version.
 
 **Example Request:** https://api.petarmc.com/v2/id/effects/1.20/1
