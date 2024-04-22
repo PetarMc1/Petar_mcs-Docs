@@ -8,10 +8,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/', // Change this from '/docs' to '/'
+  baseUrl: '/',
 
   organizationName: 'PetarMc1', // Usually your GitHub org/user name.
-  projectName: 'Petar_mc-s-Docs', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +28,7 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/PetarMc1/Petar_mc-s-Docs',
+          editUrl: 'https://github.com/PetarMc1/docs',
         },
         blog: false,
         theme: {
@@ -82,7 +82,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://github.com/PaperMC",
+          href: "https://github.com/PatarMc1",
           className: "header-icons header-github",
           position: "right",
         },
