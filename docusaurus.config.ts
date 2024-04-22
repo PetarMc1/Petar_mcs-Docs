@@ -82,7 +82,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://github.com/PatarMc1",
+          href: "https://github.com/PetarMc1",
           className: "header-icons header-github",
           position: "right",
         },
