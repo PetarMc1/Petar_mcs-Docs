@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'You can find documentation for all of my projects here',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.petarmc.com',
   baseUrl: '/',
 
   organizationName: 'PetarMc1', // Usually your GitHub org/user name.
@@ -43,6 +43,14 @@ const config: Config = {
       defaultMode: 'dark',
     },
     image: 'img/docusaurus-social-card.jpg',
+
+    algolia: {
+      appId: 'VFLG6ZN2BY',
+      apiKey: '1f86b13816905da148de47e80a9cfe10',
+      indexName: 'petarmc',
+      contextualSearch: true,
+    },
+
     navbar: {
       title: 'Petar_mc\'s docs',
       logo: {
@@ -55,27 +63,32 @@ const config: Config = {
           type: 'doc',
           docId: '/api-v2/getting-started',
           label: 'Minecraft Items API v2',
-          sidebarId: 'api', // Sidebar id for Dropdown Item 1
+          sidebarId: 'api',
         },
+
+
        {
         type: 'dropdown',
-        label: 'Generators', // Label for the dropdown item
-        position: 'left', // Position in the navbar
+        label: 'Generators',
+        position: 'left',
         items: [
           {
             type: 'doc',
             docId: 'Generators/RGBgenerator/AboutTheProject',
             label: 'RGB Generator',
-            sidebarId: 'generators', // Sidebar id for Dropdown Item 1
+            sidebarId: 'generators',
           },
           {
             type: 'doc',
             docId: 'Generators/FontGenerator/AboutTheProject',
             label: 'Font Generator',
-            sidebarId: 'generators', // Sidebar id for Dropdown Item 2
+            sidebarId: 'generators',
           },
         ],
-      },
+       },
+
+
+
         {
           href: "https://discord.gg/2Adsx4pMxU",
           className: "header-icons header-discord",
@@ -86,6 +99,8 @@ const config: Config = {
           className: "header-icons header-github",
           position: "right",
         },
+
+
       ],
     },
     footer: {
