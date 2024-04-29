@@ -27,9 +27,9 @@ export default function Home(): JSX.Element {
   return (
       <Layout title="Home" description={description}>
           <HomepageHeader/>
-          <section className="homePageSearch">
+        //  <section className="homePageSearch">
             //  <SearchBar/>
-          </section>
+         // </section>
           <main>
               <Projects/>
           </main>
