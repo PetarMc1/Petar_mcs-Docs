@@ -5,7 +5,7 @@ description: Demo and Local use available
 
 # How to use the generator
 
-You can see a demo [here](https://petarmc1.github.io/rgb-generator)
+You can see a demo [here](https://tools.petarmc.com/rgb-generator/)
 
 
 
@@ -14,11 +14,11 @@ To add the RGB generator to your website, follow these steps:
 
 1. Copy the iframe code:
 ```html
-<iframe src="https://petarmc1.github.io/rgb-generator" frameborder="0"></iframe>
+<iframe src="https://tools.petarmc.com/rgb-generator/r" frameborder="0"></iframe>
 ```
 
 :::warning
-If you embed the generator in your website the [demo](https://petarmc1.github.io/rgb-generator) will be visible. You won't be able to remove the navbar at the top!
+If you embed the generator in your website the [demo](https://tools.petarmc.com/rgb-generator/) will be visible. You won't be able to remove the navbar at the top!
 :::
 
 2. Paste the code into your website
