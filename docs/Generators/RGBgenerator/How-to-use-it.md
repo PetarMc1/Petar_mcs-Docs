@@ -1,6 +1,6 @@
 ---
 slug: /generators/rgb-generator/how-to-use
-description: Demo and Local use available
+description: Generator Usage
 ---
 
 # How to use the generator
