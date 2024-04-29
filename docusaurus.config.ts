@@ -44,12 +44,12 @@ const config: Config = {
     },
     image: 'img/docusaurus-social-card.jpg',
 
-    algolia: {
-      appId: 'VFLG6ZN2BY',
-      apiKey: '1f86b13816905da148de47e80a9cfe10',
-      indexName: 'petarmc',
-      contextualSearch: true,
-    },
+    //algolia: {
+     // appId: 'VFLG6ZN2BY',
+    //  apiKey: '1f86b13816905da148de47e80a9cfe10',
+     // indexName: 'petarmc',
+      //contextualSearch: true,
+ //   },
 
     navbar: {
       title: 'Petar_mc\'s docs',
