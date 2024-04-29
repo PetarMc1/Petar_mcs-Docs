@@ -3,7 +3,7 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "../css/index.module.css";
 import Projects from "../components/Projects";
-//import SearchBar from "@theme/SearchBar";
+import SearchBar from "@theme/SearchBar";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -27,9 +27,9 @@ export default function Home(): JSX.Element {
   return (
       <Layout title="Home" description={description}>
           <HomepageHeader/>
-        //  <section className="homePageSearch">
-            //  <SearchBar/>
-         // </section>
+         <section className="homePageSearch">
+            <SearchBar/>
+         </section>
           <main>
               <Projects/>
           </main>
