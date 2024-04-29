@@ -1,6 +1,6 @@
 ---
 slug: /generators/font-generator/how-to-use/
-description: Demo and Local use available
+description: Generator Usage
 ---
 
 # How to use the generator
@@ -24,14 +24,14 @@ If you embed the generator in your website the [demo](https://tools.petarmc.com/
 2. Paste the code into your website
 
 
-## Local use
+# Local use
 
 1. Clone the [Github Repository](https://github.com/PetarMc1/font-generator)
 ```bash
 git clone https://github.com/PetarMc1/font-generator
 ```
-2. Go to the `Generator` folder
-3. Open `index.html`
-4. You are done. Enjoy using it!
+1. Go to the `Generator` folder.
+2. Open `index.html`
+3. You are done. Enjoy using it!
 
 
