@@ -42,7 +42,7 @@ const config: Config = {
     colorMode: {
       defaultMode: 'dark',
     },
-    image: 'img/docusaurus-social-card.jpg',
+  // image: 'img/docusaurus-social-card.jpg',
 
     //algolia: {
      // appId: 'VFLG6ZN2BY',
