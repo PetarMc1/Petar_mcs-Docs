@@ -1,6 +1,7 @@
 ---
 slug: /api-v2/welcome
 description: Getting started with the API
+sidebar_label: Welcome to the Minecraft Items API v2 docs
 ---
 
 # Minecraft Items API v2
