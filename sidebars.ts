@@ -44,20 +44,8 @@ const sidebars: SidebarsConfig = {
 ],
 
 api: [
-  {
-    type: "category",
-    label: "Getting Started",
-    link: {
-      type: "generated-index",
-      slug: "/api-v2/getting-started",
-    },
-    items: [
-      'MinecraftItemsAPI-v2/GettingStarted/README',
-      'MinecraftItemsAPI-v2/GettingStarted/AvailableEndpoints',
-      'MinecraftItemsAPI-v2/GettingStarted/supported-versions'
-      //MinecraftItemsAPI-v2
-    ],
-  },
+  'MinecraftItemsAPI-v2/Welcome',
+  'MinecraftItemsAPI-v2/AvailableEndpoints',
   {
     type: "category",
     label: "Advanced",
@@ -68,7 +56,6 @@ api: [
     items: [
       'MinecraftItemsAPI-v2/Advanced/naming-convention',
       'MinecraftItemsAPI-v2/Advanced/unusual-item-names'
-      //MinecraftItemsAPI-v2
     ],
   }
 ]

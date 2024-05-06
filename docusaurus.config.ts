@@ -61,7 +61,7 @@ const config: Config = {
       items: [
         {
           type: 'doc',
-          docId: '/api-v2/getting-started',
+          docId: 'MinecraftItemsAPI-v2/Welcome',
           label: 'Minecraft Items API v2',
           sidebarId: 'api',
         },
