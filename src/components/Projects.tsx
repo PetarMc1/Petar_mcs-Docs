@@ -8,7 +8,7 @@ const projects: Project[] = [
     title: "Minecraft Items API v2",
     description: "Documentation for the Minecraft Items API v2 project.",
     repo: "PetarMc1/minecraft-items-api-v2",
-    link: "/api-v2/welcome",
+    link: "/api/welcome",
   },
   {
     title: "RGB Generator",

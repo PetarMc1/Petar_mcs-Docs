@@ -1,5 +1,5 @@
 ---
-slug: /api-v2/advanced/naming-convention
+slug: /api/advanced/naming-convention
 sidebar_label: Naming Convention
 ---
 

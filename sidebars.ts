@@ -51,7 +51,7 @@ api: [
     label: "Advanced",
     link: {
       type: "generated-index",
-      slug: "/api-v2/advanced",
+      slug: "/api/advanced",
     },
     items: [
       'MinecraftItemsAPI-v2/Advanced/naming-convention',

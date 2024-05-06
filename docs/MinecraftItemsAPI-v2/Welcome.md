@@ -1,5 +1,5 @@
 ---
-slug: /api-v2/welcome
+slug: /api/welcome
 description: Getting started with the API
 sidebar_label: Welcome to the Minecraft Items API v2 docs
 ---
@@ -8,7 +8,7 @@ sidebar_label: Welcome to the Minecraft Items API v2 docs
 The API is designed to retrieve information for Minecraft blocks and items.
 
 ## How to Use
-To get started, simply make HTTP requests to one of the [endpoints](/api-v2/available-endpoints). Alternatively, you can use the [user-friendly UI](https://api.petarmc.com)
+To get started, simply make HTTP requests to one of the [endpoints](/api/available-endpoints). Alternatively, you can use the [user-friendly UI](https://api.petarmc.com)
 
 ## Supported Versions
 

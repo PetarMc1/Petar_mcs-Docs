@@ -1,5 +1,5 @@
 ---
-slug: /api-v2/advanced/unusual-names
+slug: /api/advanced/unusual-names
 
 ---
 
