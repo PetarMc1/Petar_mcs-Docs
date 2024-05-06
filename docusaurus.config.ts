@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Petar_mc\'s documentation',
   tagline: 'You can find documentation for all of my projects here',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://8nchauor6rssdjsw.public.blob.vercel-storage.com/cropped-blue-head-logo.ico',
 
   url: 'https://docs.petarmc.com',
   baseUrl: '/',
@@ -55,7 +55,7 @@ const config: Config = {
       title: 'Petar_mc\'s docs',
       logo: {
         alt: 'Site Logo',
-        src: 'img/logo.svg',
+        src: 'https://8nchauor6rssdjsw.public.blob.vercel-storage.com/cropped-blue-head-logo.svg',
       },
       
       items: [
