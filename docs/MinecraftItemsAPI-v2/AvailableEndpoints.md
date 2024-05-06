@@ -1,5 +1,5 @@
 ---
-slug: /api-v2/getting-started/available-endpoints
+slug: /api-v2/available-endpoints
 description: All Available Endpoints
 ---
 
