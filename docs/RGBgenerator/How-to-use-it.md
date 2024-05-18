@@ -1,5 +1,5 @@
 ---
-slug: /generators/rgb-generator/how-to-use
+slug: /rgb-generator/how-to-use
 description: Generator Usage
 ---
 

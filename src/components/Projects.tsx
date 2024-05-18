@@ -16,19 +16,19 @@ const projects: Project[] = [
     title: "Combination Generator",
     description: "Documentation for my Combination Generator project.",
     repo: "PetarMc1/combination-generator",
-    link: "/combination-generator/v1/getting-started/running-the-script",
+    link: "/combination-generator/welcome",
   },
   {
     title: "RGB Generator",
     description: "Documentation for my Minecraft RGB Generator.",
     repo: "PetarMc1/rgb-generator",
-    link: "/generators/rgb-generator",
+    link: "/rgb-generator/about-the-project",
   },
   {
     title: "Font Generator",
     description: "Documentation for my Minecraft Font Generator.",
     repo: "PetarMc1/font-generator",
-    link: "/generators/font-generator",
+    link: "/font-generator/about-the-project",
   },
 ];
 

@@ -1,5 +1,5 @@
 ---
-slug: /generators/font-generator/about-the-project
+slug: /font-generator/about-the-project
 sidebar_label: About the project
 ---
 

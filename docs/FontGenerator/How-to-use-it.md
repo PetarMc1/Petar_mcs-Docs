@@ -1,5 +1,5 @@
 ---
-slug: /generators/font-generator/how-to-use/
+slug: /font-generator/how-to-use/
 description: Generator Usage
 ---
 

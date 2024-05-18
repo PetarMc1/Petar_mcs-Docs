@@ -1,5 +1,5 @@
 ---
-slug: /generators/rgb-generator/about-the-project
+slug: /rgb-generator/about-the-project
 sidebar_label: About the project
 ---
 
