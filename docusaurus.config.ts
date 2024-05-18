@@ -55,7 +55,7 @@ const config: Config = {
       title: 'Petar_mc\'s docs',
       logo: {
         alt: 'Site Logo',
-        src: 'https://8nchauor6rssdjsw.public.blob.vercel-storage.com/cropped-blue-head-logo.svg',
+        src: './static/img/logo.png',
       },
       
       items: [
@@ -72,6 +72,12 @@ const config: Config = {
         label: 'Generators',
         position: 'left',
         items: [
+          {
+            type: 'doc',
+            docId: 'Combination Generator/Welcome',
+            label: 'Combination Generator',
+            sidebarId: 'combinationGen',
+          },
           {
             type: 'doc',
             docId: 'Generators/RGBgenerator/AboutTheProject',

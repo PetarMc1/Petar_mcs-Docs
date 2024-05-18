@@ -3,12 +3,20 @@ import clsx from "clsx";
 import React from "react";
 import "../css/projects.css";
 
+//Combination Generator
+
 const projects: Project[] = [
   {
     title: "Minecraft Items API v2",
     description: "Documentation for the Minecraft Items API v2 project.",
     repo: "PetarMc1/minecraft-items-api-v2",
     link: "/api/welcome",
+  },
+  {
+    title: "Combination Generator",
+    description: "Documentation for my Combination Generator project.",
+    repo: "PetarMc1/combination-generator",
+    link: "/combination-generator/v1/getting-started/running-the-script",
   },
   {
     title: "RGB Generator",
