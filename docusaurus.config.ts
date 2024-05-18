@@ -55,7 +55,7 @@ const config: Config = {
       title: 'Petar_mc\'s docs',
       logo: {
         alt: 'Site Logo',
-        src: './static/img/logo.png',
+        src: '/img/logo.svg',
       },
       
       items: [
