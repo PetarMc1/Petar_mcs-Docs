@@ -18,12 +18,23 @@
 }
 
 .projectGitHub {
+  font-size: 1.1rem;
   color: var(--ifm-link-color);
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
   font-weight: bold;
   display: flex;
+  align-items: center; 
 }
+
+.projectIcon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+  flex-shrink: 0;
+  stroke: var(--ifm-link-color);
+  stroke-width: 2;
+  margin-left: 10px;
+}
+
 
 .projects {
   display: flex;
@@ -51,7 +62,7 @@
   width: 100%;
 }
 
-.homePageSearch{
+.homePageSearch {
   align-items: center;
   justify-content: center;
 }

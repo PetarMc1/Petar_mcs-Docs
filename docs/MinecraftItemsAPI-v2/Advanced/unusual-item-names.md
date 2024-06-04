@@ -3,6 +3,10 @@ slug: /api/advanced/unusual-names
 
 ---
 
+:::warning
+This project has reached end of life and is no longer supported.
+:::
+
 # Naming Differences for Versions Lower than 1.12
 
 When working with versions of Minecraft prior to 1.12, it's important to note that there are items with names that are diffrent from their display names. This discrepancy can sometimes lead to confusion when querying data or interacting with plugins and mods.

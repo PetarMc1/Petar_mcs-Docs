@@ -1,17 +1,10 @@
 import Link from "@docusaurus/Link";
 import clsx from "clsx";
 import React from "react";
+import ArchiveIcon from '@site/static/img/ArchveIcon.svg';
 import "../css/projects.css";
 
-//Combination Generator
-
 const projects: Project[] = [
-  {
-    title: "Minecraft Items API v2",
-    description: "Documentation for the Minecraft Items API v2 project.",
-    repo: "PetarMc1/minecraft-items-api-v2",
-    link: "/api/welcome",
-  },
   {
     title: "Combination Generator",
     description: "Documentation for my Combination Generator project.",
@@ -30,6 +23,13 @@ const projects: Project[] = [
     repo: "PetarMc1/font-generator",
     link: "/font-generator/about-the-project",
   },
+  {
+    title: "Minecraft Items API v2",
+    description: "Documentation for the Minecraft Items API v2 project.",
+    repo: "PetarMc1/minecraft-items-api-v2",
+    link: "/api/welcome",
+    eol: true,
+  },
 ];
 
 function Project(project: Project) {
@@ -41,6 +41,7 @@ function Project(project: Project) {
           to={`https://github.com/${project.repo}`}
         >
           {project.title}
+          {project.eol && <ArchiveIcon className={"projectIcon"} />}
         </Link>
         <p>{project.description}</p>
       </div>
@@ -73,4 +74,5 @@ interface Project {
   description: string;
   repo: string;
   link: string;
+  eol?: boolean; // Add the optional eol property
 }

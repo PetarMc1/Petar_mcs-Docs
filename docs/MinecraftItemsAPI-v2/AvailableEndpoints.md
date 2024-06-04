@@ -3,6 +3,10 @@ slug: /api/available-endpoints
 description: All Available Endpoints
 ---
 
+:::warning
+This project has reached end of life and is no longer supported.
+:::
+
 # Available Endpoints
 
 Below are the endpoints you can use to access information about Minecraft items and blocks.

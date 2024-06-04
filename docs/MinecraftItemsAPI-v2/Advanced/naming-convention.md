@@ -3,6 +3,10 @@ slug: /api/advanced/naming-convention
 sidebar_label: Naming Convention
 ---
 
+:::warning
+This project has reached end of life and is no longer supported.
+:::
+
 # Naming Convention for Minecraft Items and Blocks
 
 In Minecraft, when referencing items or blocks in commands or code, spaces are typically replaced with underscores (_). 
