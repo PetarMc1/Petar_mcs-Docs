@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Petar_mc\'s documentation',
   tagline: 'You can find documentation for all of my projects here',
-  favicon: '/static/img/favicon.ico',
+  favicon: 'img/favicon.ico',
 
   url: 'https://docs.petarmc.com',
   baseUrl: '/',
@@ -54,7 +54,6 @@ const config: Config = {
     navbar: {
       title: 'Petar_mc\'s docs',
       logo: {
-        alt: 'Site Logo',
         src: '/img/logo.svg',
       },
       
